@@ -1,0 +1,5 @@
+# requirements.txt - Updated for preview system
+customtkinter==5.2.0
+pypdf==3.17.0
+Pillow==10.0.0
+pymupdf==1.23.8  # For fast PDF rendering (PyMuPDF)
