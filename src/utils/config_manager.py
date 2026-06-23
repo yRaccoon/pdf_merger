@@ -1,4 +1,3 @@
-# src/utils/config_manager.py - Enhanced configuration management
 import json
 import os
 from pathlib import Path

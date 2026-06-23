@@ -1,4 +1,3 @@
-# src/utils/page_range.py - Page range parsing and validation
 import re
 from typing import List, Tuple
 

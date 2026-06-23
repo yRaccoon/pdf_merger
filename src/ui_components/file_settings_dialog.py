@@ -145,8 +145,7 @@ class FileSettingsDialog(ctk.CTkToplevel):
             text="Cancel",
             command=self.cancel,
             width=100,
-            fg_color="transparent",
-            border_width=1
+            fg_color=("gray70", "gray30"),
         )
         cancel_btn.grid(row=0, column=0, padx=10, sticky="e")
         

@@ -120,7 +120,7 @@ class PDFMergerApp(ctk.CTk):
             command=self.toggle_mode,
             width=120,
             height=30,
-            fg_color=("gray70", "gray30") if self.advanced_mode else ("gray85", "gray25")
+            fg_color=("gray70", "gray30")
         )
         self.mode_btn.grid(row=0, column=0, padx=(0, 10))
         
