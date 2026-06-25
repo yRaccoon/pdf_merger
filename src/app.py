@@ -279,7 +279,7 @@ class PDFMergerApp(ctk.CTk):
         self.title_label.configure(text=f"{mode_indicator} PDF Merger")
         self.mode_btn.configure(
             text="Advanced Mode" if self.advanced_mode else "Simple Mode",
-            fg_color=("gray70", "gray30") if self.advanced_mode else ("gray85", "gray25")
+            fg_color=("gray70", "gray30")
         )
         
         # Update file list with/without settings buttons
